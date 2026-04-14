@@ -16,98 +16,91 @@
   <link rel="stylesheet" href="css/style.css" class="css">
   <body>
     <header class="header">
-      <h1 class="logo">ZeroPlus <span class="logo-parts">Ad</span>Sense</h1>
+      <h1 class="header-logo">ZeroPlus <span class="header-logo-primary">Ad</span>Sense</h1>
       <nav class="header-nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="">お知らせ</a>
+        <ul class="header-nav-list">
+          <li class="headernav-item">
+            <a href="index.html#news">お知らせ</a>
           </li>
           <li class="nav-item">
-            <a href="">サービス</a>
+            <a href="index.html#service">サービス</a>
           </li>
           <li class="nav-item">
-            <a href="">お問い合わせ</a>
+            <a href="index.html#contact">お問い合わせ</a>
           </li>
         </ul>
       </nav>
     </header>
     <div class="kv">
-      <div class="kv-img">
-        <img src="img/img_kv_sm.jpg" alt="キービジュアル" />
-      </div>
+      <img src="img/img_kv_sm.jpg" class="kv-img"  width="750" height="960" alt="キービジュアルの画像" />
     </div>
-    <main class="top_news">
-      <section class="section-wrapper">
-        <div class="container">
-          <h2 class="section-title">- お知らせ -</h2>
-
-          <div class="top-news-list">
-            <table class="news-list">
-              <tr class="news-row">
-                <td class="news-date">22/02/24</td>
-                <td class="news-title">
-                  <span>株式会社□□様のECサイトの制作を担当しました。</span>
-                </td>
-              </tr>
-
-              <tr class="news-row">
-                <td class="news-date">22/01/28</td>
-                <td class="news-title">
-                  <span>株式会社△△様のホームページの制作を担当しました。</span>
-                </td>
-              </tr>
-
-              <tr class="news-row">
-                <td class="news-date">22/01/15</td>
-                <td class="news-title">
-                  <span>株式会社〇〇様のランディングページの制作を担当しました。</span>
-                </td>
-              </tr>
-
-              <tr class="news-row">
-                <td class="news-date">22/01/01</td>
-                <td class="news-title">
-                  <span>新年、明けましておめでとうございます。</span>
-                </td>
-              </tr>
-
-            </table>
-          </div>
-          <a href="" class="news-btn">お知らせ一覧を見る</a>
+    <main class="main">
+      <section class="section news" id="news">
+        <h2 class="section-title">- お知らせ -</h2>
+        <div class="container-sm">
+          <ul class="news-list">
+            <li class="news-item">
+              <time datetime="22/02/24" class="news-date">22/02/24</time>
+              <p class="news-link">株式会社□□様のECサイトの制作を担当しました。</p>
+            </li>
+            <li class="news-item">
+              <time datetime="22/01/28" class="news-date">22/01/28</time>
+              <p class="news-link">株式会社△△様のホームページの制作を担当しました。</p>
+            </li>
+            <li class="news-item">
+              <time datetime="22/01/15" class="news-date">22/01/15</time>
+              <p class="news-link">株式会社〇〇様のランディングページの制作を担当しました。</p>
+            </li>
+            <li class="news-item">
+              <time datetime="22/01/01" class="news-date">22/01/01</time>
+              <p class="news-link">新年、明けましておめでとうございます。</p>
+            </li>
+          </ul>
+        </div>
+        <div class="news-btn-wrapper">
+          <a href="" class="btn">お知らせ一覧を見る</a>
         </div>
       </section>
-    </main>]
-    <div class="top-service">
-      <div class="section-wrapper">
+      <section class="section service" id="service">
+        <h2 class="section-title">- サービス -</h2>
+        <div class="container-sm">
+          <p class="service-copy">理念の文章が入ります。</p>
+          <p class="service-desc">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。</p>
+        </div>
         <div class="container">
-          <h2 class="section-title">- サービス -</h2>
-          <h3 class="philosophy">理念の文章が入ります。</h3>
-          <p>親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。</p>
-          <div class="service-list">
-            <table class="service-list2">
-              <tr class="service-row">
-                <td class="service-title">広告運用</td>
-                <td class="service-detail">
-                  <span>広告運用の説明が入ります。</span>
-                </td>
-              </tr>
-              <tr class="service-row">
-                <td class="service-title">Webサイト作成</td>
-                <td class="service-detail">
-                  <span>Webサイト作成の説明が入ります。</span>
-                </td>
-              </tr>
-              <tr class="service-row">
-                <td class="service-title">Webサイト運用</td>
-                <td class="service-detail">
-                  <span>Webサイト運用の説明が入ります。</span>
-                </td>
-              </tr>
-            </table>
+          <div class="service-content">
+            <div class="service-item">
+              <h3 class="service-item-title">広告運用</h3>
+              <p class="service-item-desc">広告運用の説明が入ります。</p>
+            </div>
+            <div class="service-item">
+              <h3 class="service-item-title">Webサイト作成</h3>
+              <p class="service-item-desc">Webサイト作成の説明が入ります。</p>
+            </div>
+            <div class="service-item">
+              <h3 class="service-item-title">Webサイト運用</h3>
+              <p class="service-item-desc">Webサイト運用の説明が入ります。</p>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+      <section class="section contact" id="contact">
+        <div class="container">
+          <h2 class="section-title">- お問い合わせ -</h2>
+          <div class="container-sm">
+            <p class="contact-desc">親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。</p>
+          </div>
+          <div class="contact-btn-wrapper">
+            <a href="tel:+80-0000-0000" class="btn">080-0000-0000</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <small class="footer-copyright">
+        &copy; 2024 ZeroPlus inc.
+      </small>
+    </footer>
   </body>
 </html>
  
